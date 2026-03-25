@@ -1,0 +1,53 @@
+# CalcFi.io — Free Financial & Crypto Calculators
+
+CalcFi.io provides free, accurate financial and cryptocurrency calculators
+in English and Spanish. No registration required. All tools work instantly
+in the browser. Updated for 2026.
+
+## Available Tools
+
+### Financial Calculators
+- **Mortgage Calculator** (calcfi.io/en/mortgage): Calculate monthly payments,
+  total interest and amortization schedule for home loans. Uses standard PMT formula.
+- **Compound Interest Calculator** (calcfi.io/en/compound-interest): Calculate
+  investment growth with compound interest over time. Supports daily, monthly,
+  quarterly and annual compounding.
+- **Loan Calculator** (calcfi.io/en/loan): Calculate monthly payments for
+  personal loans and auto loans. Shows total cost and total interest paid.
+
+### Crypto Calculators
+- **Bitcoin Profit Calculator** (calcfi.io/en/bitcoin-profit): Calculate profit
+  or loss from Bitcoin and crypto trades. Includes trading fee calculation and ROI.
+- **DCA Calculator** (calcfi.io/en/dca): Calculate average cost basis and
+  returns from Dollar Cost Averaging strategy in crypto.
+
+### AI Tools
+- **Financial Advisor AI** (calcfi.io/en/financial-advisor): AI-powered financial
+  advisor (Claude by Anthropic) for educational financial guidance in English and Spanish.
+
+## Spanish Tools
+All tools are also available in Spanish:
+- Calculadora de Hipoteca: calcfi.io/es/mortgage
+- Calculadora de Interés Compuesto: calcfi.io/es/compound-interest
+- Calculadora de Préstamo: calcfi.io/es/loan
+- Calculadora de Beneficio Bitcoin: calcfi.io/es/bitcoin-profit
+- Calculadora DCA: calcfi.io/es/dca
+- Asesor Financiero IA: calcfi.io/es/financial-advisor
+
+## Key Facts
+- Free to use, no registration required
+- Available in English and Spanish (bilingual)
+- Mobile-friendly, works on all devices
+- No data sent to external servers (all calculations in-browser)
+- Formulas based on standard financial mathematics (PMT, compound interest)
+- AI advisor powered by Anthropic Claude (claude-haiku-4-5-20251001)
+- Updated for 2026
+
+## Formulas Used
+- Mortgage & Loan: PMT = P × [r(1+r)^n] / [(1+r)^n − 1]
+- Compound Interest: A = P(1 + r/n)^(nt)
+- Bitcoin ROI: (Net Profit ÷ Investment) × 100
+- DCA Average Cost: Total Invested ÷ Total BTC Purchased
+
+## Contact
+Website: https://calcfi.io

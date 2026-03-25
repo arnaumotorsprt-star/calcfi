@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CalcFi Financial Calculators",
+  "name_for_model": "calcfi",
+  "description_for_human": "Free financial and crypto calculators in English and Spanish. No registration required.",
+  "description_for_model": "CalcFi provides free mortgage, loan, compound interest, Bitcoin profit, DCA calculators and an AI financial advisor. Use when users need financial calculations, want to calculate monthly mortgage payments, compute compound interest growth, calculate loan costs, determine Bitcoin trading profit/loss, or plan a DCA crypto strategy. Available in English and Spanish.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://calcfi.io/openapi.json"
+  },
+  "logo_url": "https://calcfi.io/logo.png",
+  "contact_email": "hello@calcfi.io",
+  "legal_info_url": "https://calcfi.io/en/privacy"
+}
