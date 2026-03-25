@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "mortgage": "Calculadora Hipoteca",
+    "compoundInterest": "Interés Compuesto",
+    "loan": "Calculadora Préstamo",
+    "bitcoinProfit": "Beneficio Bitcoin",
+    "dca": "Calculadora DCA",
+    "financialAdvisor": "Asesor Financiero IA"
+  },
+  "home": {
+    "title": "CalcFi — Calculadoras Financieras y Crypto",
+    "subtitle": "Calculadoras profesionales gratuitas para tus decisiones financieras",
+    "tools": {
+      "mortgage": {
+        "title": "Calculadora de Hipoteca",
+        "description": "Calcula tu cuota mensual, intereses totales y visualiza el plan de amortización.",
+        "cta": "Calcular Ahora"
+      },
+      "compoundInterest": {
+        "title": "Interés Compuesto",
+        "description": "Descubre cómo crece tu inversión con el poder del interés compuesto.",
+        "cta": "Calcular Ahora"
+      },
+      "loan": {
+        "title": "Calculadora de Préstamo",
+        "description": "Conoce tu cuota mensual y coste total de cualquier préstamo personal o de coche.",
+        "cta": "Calcular Ahora"
+      },
+      "bitcoinProfit": {
+        "title": "Beneficio Bitcoin",
+        "description": "Calcula tu ganancia o pérdida en la compra y venta de Bitcoin.",
+        "cta": "Calcular Ahora"
+      },
+      "dca": {
+        "title": "Calculadora DCA",
+        "description": "Planifica tu estrategia de Dollar Cost Averaging en crypto con estadísticas completas.",
+        "cta": "Calcular Ahora"
+      },
+      "financialAdvisor": {
+        "title": "Asesor Financiero IA",
+        "description": "Pregunta a nuestro asistente IA tus dudas financieras y recibe respuestas al instante.",
+        "cta": "Preguntar Ahora"
+      }
+    }
+  },
+  "mortgage": {
+    "title": "Calculadora de Hipoteca",
+    "description": "Calcula tu cuota mensual hipotecaria",
+    "meta": {
+      "title": "Calculadora de Hipoteca — CalcFi",
+      "description": "Calculadora de hipoteca gratuita. Calcula cuota mensual, intereses totales y tabla de amortización."
+    },
+    "fields": {
+      "homePrice": "Precio de la Vivienda (€)",
+      "downPayment": "Entrada / Pago Inicial (€)",
+      "interestRate": "Tipo de Interés Anual (%)",
+      "loanTerm": "Plazo del Préstamo (años)"
+    },
+    "results": {
+      "monthlyPayment": "Cuota Mensual",
+      "totalPayment": "Total Pagado",
+      "totalInterest": "Intereses Totales",
+      "loanAmount": "Importe Hipotecado",
+      "downPayment": "Entrada"
+    },
+    "chart": {
+      "title": "Plan de Amortización",
+      "principal": "Capital",
+      "interest": "Intereses"
+    }
+  },
+  "compoundInterest": {
+    "title": "Calculadora de Interés Compuesto",
+    "description": "Calcula cómo crece tu inversión con interés compuesto",
+    "meta": {
+      "title": "Calculadora de Interés Compuesto — CalcFi",
+      "description": "Calculadora de interés compuesto gratuita. Visualiza el crecimiento de tu inversión con gráficos detallados."
+    },
+    "fields": {
+      "principal": "Capital Inicial (€)",
+      "rate": "Tipo de Interés Anual (%)",
+      "years": "Período de Inversión (años)",
+      "frequency": "Frecuencia de Capitalización"
+    },
+    "frequency": {
+      "annually": "Anual",
+      "semiAnnually": "Semestral",
+      "quarterly": "Trimestral",
+      "monthly": "Mensual"
+    },
+    "results": {
+      "finalAmount": "Capital Final",
+      "totalInterest": "Intereses Generados",
+      "totalGrowth": "Crecimiento Total"
+    },
+    "chart": {
+      "title": "Crecimiento de la Inversión",
+      "balance": "Saldo"
+    }
+  },
+  "loan": {
+    "title": "Calculadora de Préstamo",
+    "description": "Calcula tu cuota mensual y el coste total del préstamo",
+    "meta": {
+      "title": "Calculadora de Préstamo — CalcFi",
+      "description": "Calculadora de préstamos gratuita. Calcula cuota mensual, coste total e intereses de cualquier préstamo."
+    },
+    "fields": {
+      "amount": "Importe del Préstamo (€)",
+      "rate": "Tipo de Interés Anual (%)",
+      "term": "Plazo del Préstamo (meses)"
+    },
+    "results": {
+      "monthlyPayment": "Cuota Mensual",
+      "totalPayment": "Total a Pagar",
+      "totalInterest": "Intereses Totales"
+    }
+  },
+  "bitcoinProfit": {
+    "title": "Calculadora de Beneficio Bitcoin",
+    "description": "Calcula tu ganancia o pérdida en trading de Bitcoin",
+    "meta": {
+      "title": "Calculadora de Beneficio Bitcoin — CalcFi",
+      "description": "Calculadora de beneficio Bitcoin gratuita. Calcula tu ganancia, pérdida y ROI en trading de crypto."
+    },
+    "fields": {
+      "investment": "Importe Invertido ($)",
+      "buyPrice": "Precio de Compra ($/BTC)",
+      "sellPrice": "Precio de Venta ($/BTC)",
+      "fees": "Comisiones (%)"
+    },
+    "results": {
+      "btcAmount": "BTC Comprado",
+      "grossProfit": "Beneficio/Pérdida Bruta",
+      "netProfit": "Beneficio/Pérdida Neta",
+      "roi": "ROI"
+    }
+  },
+  "dca": {
+    "title": "Calculadora DCA",
+    "description": "Planifica tu estrategia de Dollar Cost Averaging en crypto",
+    "meta": {
+      "title": "Calculadora DCA Crypto — CalcFi",
+      "description": "Calculadora DCA gratuita para crypto. Calcula tu precio medio, rentabilidad total y evolución de cartera."
+    },
+    "fields": {
+      "amount": "Importe por Período ($)",
+      "periods": "Número de Períodos",
+      "startPrice": "Precio Inicial ($/BTC)",
+      "endPrice": "Precio Final ($/BTC)",
+      "frequency": "Frecuencia"
+    },
+    "frequency": {
+      "weekly": "Semanal",
+      "monthly": "Mensual",
+      "quarterly": "Trimestral"
+    },
+    "results": {
+      "totalInvested": "Total Invertido",
+      "finalValue": "Valor Final de Cartera",
+      "avgPrice": "Precio Medio de Compra",
+      "totalReturn": "Rentabilidad Total",
+      "totalBtc": "BTC Total"
+    },
+    "chart": {
+      "title": "Evolución Cartera vs Invertido",
+      "value": "Valor de Cartera",
+      "invested": "Total Invertido"
+    }
+  },
+  "financialAdvisor": {
+    "title": "Asesor Financiero IA",
+    "description": "Obtén respuestas instantáneas a tus preguntas financieras",
+    "meta": {
+      "title": "Asesor Financiero IA — CalcFi",
+      "description": "Pregunta a nuestro asesor financiero IA cualquier duda sobre hipotecas, inversiones, crypto y finanzas personales."
+    },
+    "placeholder": "Pregúntame sobre finanzas, inversiones o crypto...",
+    "send": "Enviar",
+    "disclaimer": "⚠️ Solo con fines educativos. No es asesoramiento financiero. Consulta siempre a un asesor homologado.",
+    "thinking": "Pensando...",
+    "welcome": "¡Hola! Soy tu asesor financiero IA. Pregúntame lo que quieras sobre hipotecas, interés compuesto, Bitcoin, estrategias DCA o finanzas personales en general.",
+    "error": "Lo siento, ha ocurrido un error. Por favor inténtalo de nuevo."
+  },
+  "common": {
+    "calculate": "Calcular",
+    "reset": "Reiniciar",
+    "results": "Resultados",
+    "year": "Año",
+    "profit": "Ganancia",
+    "loss": "Pérdida"
+  }
+}

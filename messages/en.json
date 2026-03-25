@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Home",
+    "mortgage": "Mortgage Calculator",
+    "compoundInterest": "Compound Interest",
+    "loan": "Loan Calculator",
+    "bitcoinProfit": "Bitcoin Profit",
+    "dca": "DCA Calculator",
+    "financialAdvisor": "Financial Advisor AI"
+  },
+  "home": {
+    "title": "CalcFi — Financial & Crypto Calculators",
+    "subtitle": "Free professional calculators for your financial decisions",
+    "tools": {
+      "mortgage": {
+        "title": "Mortgage Calculator",
+        "description": "Calculate your monthly payment, total interest, and see a full amortization chart.",
+        "cta": "Calculate Now"
+      },
+      "compoundInterest": {
+        "title": "Compound Interest",
+        "description": "See how your investment grows over time with the power of compounding.",
+        "cta": "Calculate Now"
+      },
+      "loan": {
+        "title": "Loan Calculator",
+        "description": "Find out your monthly payment and total cost for any personal or car loan.",
+        "cta": "Calculate Now"
+      },
+      "bitcoinProfit": {
+        "title": "Bitcoin Profit",
+        "description": "Calculate your profit or loss from buying and selling Bitcoin.",
+        "cta": "Calculate Now"
+      },
+      "dca": {
+        "title": "DCA Calculator",
+        "description": "Plan your Dollar Cost Averaging strategy in crypto with full performance stats.",
+        "cta": "Calculate Now"
+      },
+      "financialAdvisor": {
+        "title": "Financial Advisor AI",
+        "description": "Ask our AI assistant your financial questions and get instant personalized advice.",
+        "cta": "Ask Now"
+      }
+    }
+  },
+  "mortgage": {
+    "title": "Mortgage Calculator",
+    "description": "Calculate your monthly mortgage payment",
+    "meta": {
+      "title": "Mortgage Calculator — CalcFi",
+      "description": "Free mortgage calculator. Calculate monthly payment, total interest, and view amortization schedule."
+    },
+    "fields": {
+      "homePrice": "Home Price ($)",
+      "downPayment": "Down Payment ($)",
+      "interestRate": "Annual Interest Rate (%)",
+      "loanTerm": "Loan Term (years)"
+    },
+    "results": {
+      "monthlyPayment": "Monthly Payment",
+      "totalPayment": "Total Payment",
+      "totalInterest": "Total Interest",
+      "loanAmount": "Loan Amount",
+      "downPayment": "Down Payment"
+    },
+    "chart": {
+      "title": "Amortization Schedule",
+      "principal": "Principal",
+      "interest": "Interest"
+    }
+  },
+  "compoundInterest": {
+    "title": "Compound Interest Calculator",
+    "description": "Calculate how your investment grows with compound interest",
+    "meta": {
+      "title": "Compound Interest Calculator — CalcFi",
+      "description": "Free compound interest calculator. See your investment growth over time with detailed charts."
+    },
+    "fields": {
+      "principal": "Initial Investment ($)",
+      "rate": "Annual Interest Rate (%)",
+      "years": "Investment Period (years)",
+      "frequency": "Compound Frequency"
+    },
+    "frequency": {
+      "annually": "Annually",
+      "semiAnnually": "Semi-Annually",
+      "quarterly": "Quarterly",
+      "monthly": "Monthly"
+    },
+    "results": {
+      "finalAmount": "Final Amount",
+      "totalInterest": "Interest Earned",
+      "totalGrowth": "Total Growth"
+    },
+    "chart": {
+      "title": "Investment Growth",
+      "balance": "Balance"
+    }
+  },
+  "loan": {
+    "title": "Loan Calculator",
+    "description": "Calculate your monthly loan payment and total cost",
+    "meta": {
+      "title": "Loan Calculator — CalcFi",
+      "description": "Free loan calculator. Find your monthly payment, total cost and interest for any loan."
+    },
+    "fields": {
+      "amount": "Loan Amount ($)",
+      "rate": "Annual Interest Rate (%)",
+      "term": "Loan Term (months)"
+    },
+    "results": {
+      "monthlyPayment": "Monthly Payment",
+      "totalPayment": "Total Payment",
+      "totalInterest": "Total Interest"
+    }
+  },
+  "bitcoinProfit": {
+    "title": "Bitcoin Profit Calculator",
+    "description": "Calculate your Bitcoin trading profit or loss",
+    "meta": {
+      "title": "Bitcoin Profit Calculator — CalcFi",
+      "description": "Free Bitcoin profit calculator. Calculate your crypto trading profit, loss, and ROI instantly."
+    },
+    "fields": {
+      "investment": "Investment Amount ($)",
+      "buyPrice": "Buy Price ($/BTC)",
+      "sellPrice": "Sell Price ($/BTC)",
+      "fees": "Fees (%)"
+    },
+    "results": {
+      "btcAmount": "BTC Purchased",
+      "grossProfit": "Gross Profit/Loss",
+      "netProfit": "Net Profit/Loss",
+      "roi": "ROI"
+    }
+  },
+  "dca": {
+    "title": "DCA Calculator",
+    "description": "Plan your Dollar Cost Averaging crypto strategy",
+    "meta": {
+      "title": "DCA Crypto Calculator — CalcFi",
+      "description": "Free DCA calculator for crypto. Calculate your average cost, total return, and portfolio performance."
+    },
+    "fields": {
+      "amount": "Amount per Period ($)",
+      "periods": "Number of Periods",
+      "startPrice": "Starting Price ($/BTC)",
+      "endPrice": "Ending Price ($/BTC)",
+      "frequency": "Frequency"
+    },
+    "frequency": {
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly"
+    },
+    "results": {
+      "totalInvested": "Total Invested",
+      "finalValue": "Final Portfolio Value",
+      "avgPrice": "Avg. Purchase Price",
+      "totalReturn": "Total Return",
+      "totalBtc": "Total BTC"
+    },
+    "chart": {
+      "title": "Portfolio Growth vs Invested",
+      "value": "Portfolio Value",
+      "invested": "Total Invested"
+    }
+  },
+  "financialAdvisor": {
+    "title": "Financial Advisor AI",
+    "description": "Get instant answers to your financial questions",
+    "meta": {
+      "title": "AI Financial Advisor — CalcFi",
+      "description": "Ask our AI financial advisor any question about mortgages, investments, crypto, and personal finance."
+    },
+    "placeholder": "Ask me anything about finance, investments, or crypto...",
+    "send": "Send",
+    "disclaimer": "⚠️ For educational purposes only. Not financial advice. Always consult a licensed advisor.",
+    "thinking": "Thinking...",
+    "welcome": "Hello! I'm your AI financial advisor. Ask me anything about mortgages, compound interest, Bitcoin, DCA strategies, or general personal finance.",
+    "error": "Sorry, there was an error. Please try again."
+  },
+  "common": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "results": "Results",
+    "year": "Year",
+    "profit": "Profit",
+    "loss": "Loss"
+  }
+}
