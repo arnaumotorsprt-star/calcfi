@@ -7,48 +7,78 @@ export default function Footer() {
   const t = useTranslations('nav');
   const locale = useLocale();
 
-  const tools = [
+  const financeTools = [
     { key: 'mortgage', href: `/${locale}/mortgage` },
     { key: 'compoundInterest', href: `/${locale}/compound-interest` },
     { key: 'loan', href: `/${locale}/loan` },
+  ] as const;
+
+  const cryptoTools = [
     { key: 'bitcoinProfit', href: `/${locale}/bitcoin-profit` },
     { key: 'dca', href: `/${locale}/dca` },
     { key: 'financialAdvisor', href: `/${locale}/financial-advisor` },
   ] as const;
 
   return (
-    <footer className="bg-slate-800 text-slate-300 mt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div>
-            <span className="text-xl font-bold text-white">CalcFi.io</span>
-            <p className="mt-2 text-sm text-slate-400">
-              Free professional financial and crypto calculators.
+    <footer className="bg-slate-900 text-slate-400 mt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
+
+          {/* Brand */}
+          <div className="col-span-2 sm:col-span-1">
+            <div className="flex items-center gap-1 mb-3">
+              <span className="text-base font-bold text-white tracking-tight">CalcFi</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mb-2.5" />
+            </div>
+            <p className="text-xs leading-relaxed text-slate-500 mb-4">
+              Free financial & crypto calculators for smarter decisions.
             </p>
-            <div className="flex gap-3 mt-4">
-              <Link href={`/en${locale === 'es' ? '' : ''}`} className="text-sm hover:text-white transition-colors">EN</Link>
-              <span>|</span>
-              <Link href={`/es`} className="text-sm hover:text-white transition-colors">ES</Link>
+            <div className="flex gap-2">
+              <Link href="/en" className="text-xs font-medium text-slate-400 hover:text-white border border-slate-700 rounded px-2 py-1 transition-colors">EN</Link>
+              <Link href="/es" className="text-xs font-medium text-slate-400 hover:text-white border border-slate-700 rounded px-2 py-1 transition-colors">ES</Link>
             </div>
           </div>
+
+          {/* Finance tools */}
           <div>
-            <p className="text-sm font-semibold text-slate-200 mb-3">Tools</p>
+            <p className="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Finance</p>
             <ul className="space-y-2">
-              {tools.map((tool) => (
+              {financeTools.map((tool) => (
                 <li key={tool.key}>
-                  <Link
-                    href={tool.href}
-                    className="text-sm text-slate-400 hover:text-white transition-colors"
-                  >
+                  <Link href={tool.href} className="text-xs text-slate-500 hover:text-white transition-colors">
                     {t(tool.key)}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
+
+          {/* Crypto + AI tools */}
+          <div>
+            <p className="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Crypto & AI</p>
+            <ul className="space-y-2">
+              {cryptoTools.map((tool) => (
+                <li key={tool.key}>
+                  <Link href={tool.href} className="text-xs text-slate-500 hover:text-white transition-colors">
+                    {t(tool.key)}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <p className="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Legal</p>
+            <p className="text-xs text-slate-600 leading-relaxed">
+              Educational purposes only. Not financial advice. Always consult a licensed advisor.
+            </p>
+          </div>
+
         </div>
-        <div className="border-t border-slate-700 mt-8 pt-6 text-center text-xs text-slate-500">
-          © {new Date().getFullYear()} CalcFi.io — For educational purposes only. Not financial advice.
+
+        <div className="border-t border-slate-800 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-xs text-slate-600">© {new Date().getFullYear()} CalcFi.io. All rights reserved.</p>
         </div>
       </div>
     </footer>

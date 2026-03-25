@@ -24,38 +24,39 @@ export default function Header() {
   ] as const;
 
   return (
-    <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <header className="bg-white sticky top-0 z-50" style={{ boxShadow: '0 1px 8px rgba(0,0,0,0.08)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href={`/${locale}`} className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-blue-600">CalcFi</span>
-            <span className="hidden sm:block text-xs text-slate-500 mt-1">.io</span>
+
+          {/* Logo */}
+          <Link href={`/${locale}`} className="flex items-center gap-1 shrink-0">
+            <span className="text-xl font-bold text-slate-900 tracking-tight">CalcFi</span>
+            <span className="w-2 h-2 rounded-full bg-emerald-500 mb-3 ml-0.5" />
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-0.5">
             {tools.map((tool) => (
               <Link
                 key={tool.key}
                 href={tool.href}
-                className="text-sm text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md hover:bg-blue-50 transition-colors whitespace-nowrap"
+                className="text-sm font-medium text-slate-500 hover:text-slate-900 px-3 py-2 rounded-lg hover:bg-slate-50 transition-colors whitespace-nowrap"
               >
                 {t(tool.key)}
               </Link>
             ))}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <Link
               href={switchLocalePath}
-              className="text-sm font-medium text-blue-600 hover:text-blue-700 border border-blue-200 rounded-md px-3 py-1.5 hover:bg-blue-50 transition-colors"
+              className="text-xs font-semibold text-slate-500 hover:text-slate-900 border border-slate-200 rounded-lg px-3 py-1.5 hover:bg-slate-50 transition-colors tracking-wide"
             >
               {otherLocale.toUpperCase()}
             </Link>
 
-            {/* Mobile menu button */}
             <button
-              className="lg:hidden p-2 rounded-md text-slate-600 hover:text-blue-600 hover:bg-slate-100"
+              className="lg:hidden p-2 rounded-lg text-slate-500 hover:text-slate-900 hover:bg-slate-50 transition-colors"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Menu"
             >
@@ -72,12 +73,12 @@ export default function Header() {
 
         {/* Mobile menu */}
         {menuOpen && (
-          <div className="lg:hidden border-t border-slate-100 py-2">
+          <div className="lg:hidden border-t border-slate-100 py-2 pb-4">
             {tools.map((tool) => (
               <Link
                 key={tool.key}
                 href={tool.href}
-                className="block text-sm text-slate-600 hover:text-blue-600 px-4 py-2.5 hover:bg-blue-50 transition-colors"
+                className="block text-sm font-medium text-slate-600 hover:text-slate-900 px-4 py-2.5 hover:bg-slate-50 rounded-lg transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {t(tool.key)}
