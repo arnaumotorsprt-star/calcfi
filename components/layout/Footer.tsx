@@ -70,6 +70,18 @@ export default function Footer() {
           {/* Legal */}
           <div>
             <p className="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Legal</p>
+            <ul className="space-y-2 mb-3">
+              <li>
+                <Link href={`/${locale}/privacy`} className="text-xs text-slate-500 hover:text-white transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/about`} className="text-xs text-slate-500 hover:text-white transition-colors">
+                  About CalcFi
+                </Link>
+              </li>
+            </ul>
             <p className="text-xs text-slate-600 leading-relaxed">
               Educational purposes only. Not financial advice. Always consult a licensed advisor.
             </p>
