@@ -11,12 +11,16 @@ export default function Footer() {
     { key: 'mortgage', href: `/${locale}/mortgage` },
     { key: 'compoundInterest', href: `/${locale}/compound-interest` },
     { key: 'loan', href: `/${locale}/loan` },
+    { key: 'fire', href: `/${locale}/fire` },
+    { key: 'savings', href: `/${locale}/savings` },
+    { key: 'netWorth', href: `/${locale}/net-worth` },
   ] as const;
 
   const cryptoTools = [
     { key: 'bitcoinProfit', href: `/${locale}/bitcoin-profit` },
     { key: 'dca', href: `/${locale}/dca` },
     { key: 'financialAdvisor', href: `/${locale}/financial-advisor` },
+    { key: 'currencyConverter', href: `/${locale}/currency-converter` },
   ] as const;
 
   return (

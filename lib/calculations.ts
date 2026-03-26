@@ -96,6 +96,75 @@ export function calculateBitcoinProfit(
   return { btcAmount, grossProfit, netProfit, roi };
 }
 
+export function calculateFire(
+  currentSavings: number,
+  annualSavings: number,
+  annualExpenses: number,
+  withdrawalRate: number,
+  expectedReturn: number
+) {
+  const target = annualExpenses / (withdrawalRate / 100);
+  const r = expectedReturn / 100;
+  const data: { period: number; value: number; invested: number }[] = [];
+
+  if (currentSavings >= target) {
+    data.push({ period: 0, value: Math.round(currentSavings), invested: Math.round(target) });
+    return { yearsToFire: 0, target, progress: 100, data, alreadyFire: true };
+  }
+
+  let savings = currentSavings;
+  let years = 0;
+  const maxYears = 100;
+
+  data.push({ period: 0, value: Math.round(savings), invested: Math.round(target) });
+
+  while (savings < target && years < maxYears) {
+    savings = savings * (1 + r) + annualSavings;
+    years++;
+    data.push({ period: years, value: Math.round(savings), invested: Math.round(target) });
+  }
+
+  const progress = Math.min(100, (currentSavings / target) * 100);
+  const reached = savings >= target;
+
+  return { yearsToFire: reached ? years : -1, target, progress, data, alreadyFire: false };
+}
+
+export function calculateSavingsGoal(goal: number, months: number, annualRate: number) {
+  const r = annualRate / 100 / 12;
+  const monthlyNeeded =
+    r === 0 ? goal / months : (goal * r) / (Math.pow(1 + r, months) - 1);
+
+  const totalContributed = monthlyNeeded * months;
+  const interestEarned = Math.max(0, goal - totalContributed);
+
+  const step = Math.max(1, Math.ceil(months / 24));
+  const data: { period: number; value: number; invested: number }[] = [];
+  let accumulated = 0;
+  let contributed = 0;
+
+  for (let m = 1; m <= months; m++) {
+    accumulated = accumulated * (1 + r) + monthlyNeeded;
+    contributed += monthlyNeeded;
+    if (m % step === 0 || m === months) {
+      data.push({ period: m, value: Math.round(accumulated), invested: Math.round(contributed) });
+    }
+  }
+
+  return { monthlyNeeded, totalContributed, interestEarned, data };
+}
+
+export function calculateNetWorth(
+  assets: { home: number; car: number; savings: number; investments: number; other: number },
+  liabilities: { mortgage: number; loans: number; creditCard: number; other: number }
+) {
+  const totalAssets = Object.values(assets).reduce((s, v) => s + v, 0);
+  const totalLiabilities = Object.values(liabilities).reduce((s, v) => s + v, 0);
+  const netWorth = totalAssets - totalLiabilities;
+  const ratio = totalLiabilities > 0 ? totalAssets / totalLiabilities : null;
+  return { totalAssets, totalLiabilities, netWorth, ratio };
+}
+
 export function calculateDCA(
   amountPerPeriod: number,
   periods: number,

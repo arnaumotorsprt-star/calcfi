@@ -6,7 +6,11 @@
     "loan": "Calculadora Préstamo",
     "bitcoinProfit": "Beneficio Bitcoin",
     "dca": "Calculadora DCA",
-    "financialAdvisor": "Asesor Financiero IA"
+    "financialAdvisor": "Asesor Financiero IA",
+    "fire": "Calculadora FIRE",
+    "savings": "Calculadora de Ahorro",
+    "netWorth": "Patrimonio Neto",
+    "currencyConverter": "Conversor de Divisas"
   },
   "home": {
     "title": "CalcFi — Calculadoras Financieras y Crypto",
@@ -41,6 +45,26 @@
         "title": "Asesor Financiero IA",
         "description": "Pregunta a nuestro asistente IA tus dudas financieras y recibe respuestas al instante.",
         "cta": "Preguntar Ahora"
+      },
+      "fire": {
+        "title": "Calculadora FIRE",
+        "description": "Calcula cuántos años faltan para tu independencia financiera y retiro anticipado.",
+        "cta": "Calcular Ahora"
+      },
+      "savings": {
+        "title": "Calculadora de Ahorro",
+        "description": "Descubre cuánto debes ahorrar al mes para alcanzar tu objetivo financiero.",
+        "cta": "Calcular Ahora"
+      },
+      "netWorth": {
+        "title": "Calculadora de Patrimonio Neto",
+        "description": "Calcula tu patrimonio neto total a partir de activos y pasivos.",
+        "cta": "Calcular Ahora"
+      },
+      "currencyConverter": {
+        "title": "Conversor de Divisas",
+        "description": "Convierte entre más de 160 divisas con tipos de cambio en tiempo real.",
+        "cta": "Convertir Ahora"
       }
     }
   },
@@ -182,6 +206,109 @@
     "thinking": "Pensando...",
     "welcome": "¡Hola! Soy tu asesor financiero IA. Pregúntame lo que quieras sobre hipotecas, interés compuesto, Bitcoin, estrategias DCA o finanzas personales en general.",
     "error": "Lo siento, ha ocurrido un error. Por favor inténtalo de nuevo."
+  },
+  "fire": {
+    "title": "Calculadora FIRE",
+    "description": "Calcula tu camino hacia la independencia financiera y el retiro anticipado",
+    "meta": {
+      "title": "Calculadora FIRE — Independencia Financiera — CalcFi",
+      "description": "Calculadora FIRE gratuita. Calcula cuántos años faltan para tu independencia financiera. Visualiza el crecimiento de tu cartera."
+    },
+    "fields": {
+      "currentSavings": "Ahorros / Cartera Actual ($)",
+      "annualSavings": "Ahorro Anual ($)",
+      "annualExpenses": "Gastos Anuales en Retiro ($)",
+      "withdrawalRate": "Tasa de Retiro (%)",
+      "expectedReturn": "Rentabilidad Anual Esperada (%)"
+    },
+    "results": {
+      "yearsToFire": "Años hasta FIRE",
+      "fireNumber": "Número FIRE",
+      "currentProgress": "Progreso Actual"
+    },
+    "chart": {
+      "title": "Crecimiento de Cartera hasta FIRE",
+      "portfolio": "Valor de Cartera",
+      "target": "Objetivo FIRE"
+    },
+    "alreadyFire": "¡Ya has alcanzado la independencia financiera!",
+    "never": "No alcanzable con la tasa de ahorro actual"
+  },
+  "savings": {
+    "title": "Calculadora de Ahorro",
+    "description": "Calcula cuánto necesitas ahorrar al mes para alcanzar tu objetivo",
+    "meta": {
+      "title": "Calculadora de Ahorro — CalcFi",
+      "description": "Calculadora de ahorro gratuita. Descubre cuánto debes ahorrar cada mes para alcanzar tu objetivo financiero con intereses."
+    },
+    "fields": {
+      "goal": "Objetivo de Ahorro ($)",
+      "months": "Plazo (meses)",
+      "rate": "Tipo de Interés Anual (%)"
+    },
+    "results": {
+      "monthlyNeeded": "Ahorro Mensual Necesario",
+      "totalSaved": "Total Aportado",
+      "interestEarned": "Intereses Ganados"
+    },
+    "chart": {
+      "title": "Evolución del Ahorro",
+      "savings": "Ahorro Acumulado",
+      "contributions": "Aportaciones Totales"
+    }
+  },
+  "netWorth": {
+    "title": "Calculadora de Patrimonio Neto",
+    "description": "Calcula tu patrimonio neto total",
+    "meta": {
+      "title": "Calculadora de Patrimonio Neto — CalcFi",
+      "description": "Calculadora de patrimonio neto gratuita. Suma tus activos y pasivos para conocer tu patrimonio neto y ratio activos/pasivos."
+    },
+    "assets": {
+      "title": "Activos",
+      "home": "Vivienda / Inmuebles ($)",
+      "car": "Coche / Vehículos ($)",
+      "savings": "Ahorros y Efectivo ($)",
+      "investments": "Inversiones ($)",
+      "other": "Otros Activos ($)"
+    },
+    "liabilities": {
+      "title": "Pasivos",
+      "mortgage": "Saldo Hipoteca ($)",
+      "loans": "Otros Préstamos ($)",
+      "creditCard": "Deuda Tarjeta de Crédito ($)",
+      "other": "Otras Deudas ($)"
+    },
+    "results": {
+      "totalAssets": "Total Activos",
+      "totalLiabilities": "Total Pasivos",
+      "netWorth": "Patrimonio Neto",
+      "ratio": "Ratio Activos / Pasivos"
+    },
+    "positive": "Patrimonio positivo",
+    "negative": "Patrimonio negativo"
+  },
+  "currencyConverter": {
+    "title": "Conversor de Divisas",
+    "description": "Conversión de divisas en tiempo real con tipos de cambio actualizados",
+    "meta": {
+      "title": "Conversor de Divisas — Tipos en Tiempo Real — CalcFi",
+      "description": "Conversor de divisas gratuito en tiempo real. Convierte entre más de 160 divisas con tipos de cambio actualizados diariamente."
+    },
+    "fields": {
+      "amount": "Cantidad",
+      "from": "Divisa origen",
+      "to": "Divisa destino"
+    },
+    "results": {
+      "result": "Cantidad Convertida",
+      "rate": "Tipo de Cambio",
+      "updated": "Tipos actualizados"
+    },
+    "loading": "Cargando tipos de cambio...",
+    "error": "No se pudieron cargar los tipos. Por favor inténtalo de nuevo.",
+    "swap": "Intercambiar divisas",
+    "powered": "Tipos proporcionados por open.er-api.com"
   },
   "common": {
     "calculate": "Calcular",

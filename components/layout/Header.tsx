@@ -21,6 +21,10 @@ export default function Header() {
     { key: 'bitcoinProfit', href: `/${locale}/bitcoin-profit` },
     { key: 'dca', href: `/${locale}/dca` },
     { key: 'financialAdvisor', href: `/${locale}/financial-advisor` },
+    { key: 'fire', href: `/${locale}/fire` },
+    { key: 'savings', href: `/${locale}/savings` },
+    { key: 'netWorth', href: `/${locale}/net-worth` },
+    { key: 'currencyConverter', href: `/${locale}/currency-converter` },
   ] as const;
 
   return (

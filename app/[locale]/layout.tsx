@@ -50,6 +50,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
+        <meta name="robots" content="index, follow" />
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script
           async

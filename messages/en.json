@@ -6,7 +6,11 @@
     "loan": "Loan Calculator",
     "bitcoinProfit": "Bitcoin Profit",
     "dca": "DCA Calculator",
-    "financialAdvisor": "Financial Advisor AI"
+    "financialAdvisor": "Financial Advisor AI",
+    "fire": "FIRE Calculator",
+    "savings": "Savings Calculator",
+    "netWorth": "Net Worth",
+    "currencyConverter": "Currency Converter"
   },
   "home": {
     "title": "CalcFi — Financial & Crypto Calculators",
@@ -41,6 +45,26 @@
         "title": "Financial Advisor AI",
         "description": "Ask our AI assistant your financial questions and get instant personalized advice.",
         "cta": "Ask Now"
+      },
+      "fire": {
+        "title": "FIRE Calculator",
+        "description": "Calculate how many years until financial independence and early retirement.",
+        "cta": "Calculate Now"
+      },
+      "savings": {
+        "title": "Savings Calculator",
+        "description": "Find out how much to save each month to reach your financial goal.",
+        "cta": "Calculate Now"
+      },
+      "netWorth": {
+        "title": "Net Worth Calculator",
+        "description": "Calculate your total net worth from assets and liabilities.",
+        "cta": "Calculate Now"
+      },
+      "currencyConverter": {
+        "title": "Currency Converter",
+        "description": "Convert between 160+ currencies with real-time exchange rates.",
+        "cta": "Convert Now"
       }
     }
   },
@@ -182,6 +206,109 @@
     "thinking": "Thinking...",
     "welcome": "Hello! I'm your AI financial advisor. Ask me anything about mortgages, compound interest, Bitcoin, DCA strategies, or general personal finance.",
     "error": "Sorry, there was an error. Please try again."
+  },
+  "fire": {
+    "title": "FIRE Calculator",
+    "description": "Calculate your path to financial independence and early retirement",
+    "meta": {
+      "title": "FIRE Calculator — Financial Independence — CalcFi",
+      "description": "Free FIRE calculator. Calculate how many years until financial independence and early retirement. See your portfolio growth chart."
+    },
+    "fields": {
+      "currentSavings": "Current Savings / Portfolio ($)",
+      "annualSavings": "Annual Savings ($)",
+      "annualExpenses": "Annual Expenses in Retirement ($)",
+      "withdrawalRate": "Withdrawal Rate (%)",
+      "expectedReturn": "Expected Annual Return (%)"
+    },
+    "results": {
+      "yearsToFire": "Years to FIRE",
+      "fireNumber": "FIRE Number",
+      "currentProgress": "Current Progress"
+    },
+    "chart": {
+      "title": "Portfolio Growth to FIRE",
+      "portfolio": "Portfolio Value",
+      "target": "FIRE Target"
+    },
+    "alreadyFire": "You've already reached FIRE!",
+    "never": "Not achievable with current savings rate"
+  },
+  "savings": {
+    "title": "Savings Calculator",
+    "description": "Calculate how much to save monthly to reach your goal",
+    "meta": {
+      "title": "Savings Calculator — CalcFi",
+      "description": "Free savings calculator. Find out how much you need to save each month to reach your financial goal with interest."
+    },
+    "fields": {
+      "goal": "Savings Goal ($)",
+      "months": "Time Period (months)",
+      "rate": "Annual Interest Rate (%)"
+    },
+    "results": {
+      "monthlyNeeded": "Monthly Savings Needed",
+      "totalSaved": "Total Contributed",
+      "interestEarned": "Interest Earned"
+    },
+    "chart": {
+      "title": "Savings Growth",
+      "savings": "Accumulated Savings",
+      "contributions": "Total Contributions"
+    }
+  },
+  "netWorth": {
+    "title": "Net Worth Calculator",
+    "description": "Calculate your total net worth",
+    "meta": {
+      "title": "Net Worth Calculator — CalcFi",
+      "description": "Free net worth calculator. Add your assets and liabilities to find your total net worth and assets/liabilities ratio."
+    },
+    "assets": {
+      "title": "Assets",
+      "home": "Home / Real Estate ($)",
+      "car": "Car / Vehicles ($)",
+      "savings": "Savings & Cash ($)",
+      "investments": "Investments ($)",
+      "other": "Other Assets ($)"
+    },
+    "liabilities": {
+      "title": "Liabilities",
+      "mortgage": "Mortgage Balance ($)",
+      "loans": "Other Loans ($)",
+      "creditCard": "Credit Card Debt ($)",
+      "other": "Other Debts ($)"
+    },
+    "results": {
+      "totalAssets": "Total Assets",
+      "totalLiabilities": "Total Liabilities",
+      "netWorth": "Net Worth",
+      "ratio": "Assets / Liabilities Ratio"
+    },
+    "positive": "Positive net worth",
+    "negative": "Negative net worth"
+  },
+  "currencyConverter": {
+    "title": "Currency Converter",
+    "description": "Real-time currency conversion with live exchange rates",
+    "meta": {
+      "title": "Currency Converter — Real-Time Rates — CalcFi",
+      "description": "Free real-time currency converter. Convert between 160+ currencies with live exchange rates updated daily."
+    },
+    "fields": {
+      "amount": "Amount",
+      "from": "From currency",
+      "to": "To currency"
+    },
+    "results": {
+      "result": "Converted Amount",
+      "rate": "Exchange Rate",
+      "updated": "Rates updated"
+    },
+    "loading": "Loading exchange rates...",
+    "error": "Could not load rates. Please try again.",
+    "swap": "Swap currencies",
+    "powered": "Rates provided by open.er-api.com"
   },
   "common": {
     "calculate": "Calculate",

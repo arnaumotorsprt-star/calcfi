@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- English home -->
+  <url>
+    <loc>https://calcfi.io/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Spanish home -->
+  <url>
+    <loc>https://calcfi.io/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Mortgage -->
+  <url>
+    <loc>https://calcfi.io/en/mortgage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/mortgage"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/mortgage"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/mortgage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/mortgage"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/mortgage"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Compound Interest -->
+  <url>
+    <loc>https://calcfi.io/en/compound-interest</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/compound-interest"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/compound-interest"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/compound-interest</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/compound-interest"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/compound-interest"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Loan -->
+  <url>
+    <loc>https://calcfi.io/en/loan</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/loan"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/loan"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/loan</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/loan"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/loan"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Bitcoin Profit -->
+  <url>
+    <loc>https://calcfi.io/en/bitcoin-profit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/bitcoin-profit"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/bitcoin-profit"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/bitcoin-profit</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/bitcoin-profit"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/bitcoin-profit"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- DCA -->
+  <url>
+    <loc>https://calcfi.io/en/dca</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/dca"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/dca"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/dca</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/dca"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/dca"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Financial Advisor -->
+  <url>
+    <loc>https://calcfi.io/en/financial-advisor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/financial-advisor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/financial-advisor"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/financial-advisor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/financial-advisor"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/financial-advisor"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- FIRE Calculator -->
+  <url>
+    <loc>https://calcfi.io/en/fire</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/fire"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/fire"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/fire</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/fire"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/fire"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Savings Calculator -->
+  <url>
+    <loc>https://calcfi.io/en/savings</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/savings"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/savings"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/savings</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/savings"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/savings"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Net Worth Calculator -->
+  <url>
+    <loc>https://calcfi.io/en/net-worth</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/net-worth"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/net-worth"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/net-worth</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/net-worth"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/net-worth"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Currency Converter -->
+  <url>
+    <loc>https://calcfi.io/en/currency-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/currency-converter"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/currency-converter"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/currency-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calcfi.io/en/currency-converter"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://calcfi.io/es/currency-converter"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://calcfi.io/en/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Privacy -->
+  <url>
+    <loc>https://calcfi.io/en/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://calcfi.io/es/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

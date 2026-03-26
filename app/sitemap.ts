@@ -2,7 +2,10 @@ import { MetadataRoute } from 'next';
 
 const baseUrl = 'https://calcfi.io';
 const locales = ['en', 'es'];
-const tools = ['mortgage', 'compound-interest', 'loan', 'bitcoin-profit', 'dca', 'financial-advisor'];
+const tools = [
+  'mortgage', 'compound-interest', 'loan', 'bitcoin-profit', 'dca', 'financial-advisor',
+  'fire', 'savings', 'net-worth', 'currency-converter',
+];
 const staticPages = ['about', 'privacy'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
